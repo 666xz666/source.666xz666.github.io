@@ -1,0 +1,86 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="80" y1="60" x2="1120" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E3A5F"/>
+    </linearGradient>
+    <linearGradient id="node" x1="270" y1="160" x2="690" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="290" y1="150" x2="860" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#bg2)"/>
+  <circle cx="1060" cy="80" r="150" fill="#60A5FA" opacity="0.08"/>
+  <circle cx="130" cy="520" r="180" fill="#34D399" opacity="0.08"/>
+
+  <g opacity="0.18" stroke="#C7E7FF" stroke-width="2">
+    <path d="M120 90H700"/>
+    <path d="M120 170H700"/>
+    <path d="M120 250H700"/>
+    <path d="M120 330H700"/>
+    <path d="M120 410H700"/>
+    <path d="M120 490H700"/>
+  </g>
+
+  <g stroke="#6486A7" stroke-width="4" stroke-linecap="round">
+    <path d="M220 210L360 170"/>
+    <path d="M220 210L350 300"/>
+    <path d="M220 210L330 410"/>
+    <path d="M360 170L510 220"/>
+    <path d="M350 300L510 220"/>
+    <path d="M350 300L505 390"/>
+    <path d="M330 410L505 390"/>
+    <path d="M510 220L640 170"/>
+    <path d="M510 220L640 310"/>
+    <path d="M505 390L640 310"/>
+    <path d="M505 390L640 450"/>
+  </g>
+
+  <g stroke="url(#hot)" stroke-width="7" stroke-linecap="round">
+    <path d="M220 210L360 170L510 220L640 170"/>
+    <path d="M220 210L350 300L505 390L640 450"/>
+    <path d="M220 210L330 410L505 390"/>
+  </g>
+
+  <g>
+    <circle cx="220" cy="210" r="26" fill="#F59E0B"/>
+    <circle cx="360" cy="170" r="20" fill="url(#node)"/>
+    <circle cx="350" cy="300" r="20" fill="url(#node)"/>
+    <circle cx="330" cy="410" r="20" fill="url(#node)"/>
+    <circle cx="510" cy="220" r="22" fill="url(#node)"/>
+    <circle cx="505" cy="390" r="22" fill="url(#node)"/>
+    <circle cx="640" cy="170" r="20" fill="#FB7185"/>
+    <circle cx="640" cy="310" r="20" fill="url(#node)"/>
+    <circle cx="640" cy="450" r="20" fill="#FB7185"/>
+  </g>
+
+  <g opacity="0.28" stroke="#9BD2FF" stroke-width="2">
+    <circle cx="220" cy="210" r="70"/>
+    <circle cx="220" cy="210" r="130"/>
+    <circle cx="220" cy="210" r="190"/>
+  </g>
+
+  <g transform="translate(790 150)">
+    <text x="0" y="0" fill="#F5FAFF" font-size="50" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Multi-Source BFS</text>
+    <text x="0" y="55" fill="#9FDFC5" font-size="28" font-family="Segoe UI, Arial, sans-serif">Minimum Steps + 0-1 BFS Deque</text>
+
+    <rect x="0" y="110" width="290" height="62" rx="18" fill="#16263B" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="26" y="150" fill="#D8ECFF" font-size="24" font-family="Consolas, monospace">push all sources first</text>
+
+    <rect x="0" y="192" width="290" height="62" rx="18" fill="#16263B" stroke="#34D399" stroke-opacity="0.35"/>
+    <text x="26" y="232" fill="#D8ECFF" font-size="24" font-family="Consolas, monospace">expand by distance</text>
+
+    <rect x="0" y="274" width="290" height="62" rx="18" fill="#16263B" stroke="#FB7185" stroke-opacity="0.35"/>
+    <text x="26" y="314" fill="#D8ECFF" font-size="24" font-family="Consolas, monospace">0 cost: front / 1 cost: back</text>
+  </g>
+
+  <g transform="translate(840 500)">
+    <rect width="188" height="54" rx="18" fill="#0F1D31"/>
+    <path d="M40 17H78L94 27L78 37H40" stroke="#F59E0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 17H148L164 27L148 37H112" stroke="#34D399" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

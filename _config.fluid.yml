@@ -1,0 +1,54 @@
+favicon: /img/xz.jpg
+apple_touch_icon: /img/xz.jpg
+
+dark_mode:
+  enable: true
+  default: dark
+
+custom_js:
+  - /js/scrollAnimation.js
+  - https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/qipao.js
+  - /js/snow.js
+  - /js/cursor.js
+
+custom_css:
+  - /css/scrollAnimation.css
+
+search:
+  enable: true
+
+footer:
+  content: '
+    <i class="iconfont icon-github-fill"></i>
+    github:
+    <a href="https://github.com/666xz666/666xz666" target="_blank" rel="nofollow noopener"><span>666xz666</span></a>
+    <i class="iconfont icon-love"></i>
+    powered by:
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+
+index:
+  slogan:
+    enable: true
+    text: 欢迎来到我的博客  | Welcome to my blog
+
+navbar:
+  blog_title: 666xz666 的博客
+
+post:
+  meta:
+    views:
+      enable: true
+
+  math:
+    enable: true
+
+  mermaid:
+    enable: true
+
+  comments:
+    enable: true
+    type: utterances
+
+utterances:
+  repo: 666xz666/commit-utterance
