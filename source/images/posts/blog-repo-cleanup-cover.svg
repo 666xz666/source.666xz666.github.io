@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="70" x2="1110" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="140" y1="130" x2="700" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="160" x2="680" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <circle cx="1060" cy="110" r="160" fill="#38BDF8" opacity="0.12"/>
+  <circle cx="120" cy="540" r="210" fill="#22C55E" opacity="0.1"/>
+
+  <rect x="110" y="110" width="610" height="410" rx="28" fill="url(#card)" opacity="0.98"/>
+  <rect x="150" y="160" width="530" height="52" rx="14" fill="#E2E8F0"/>
+  <rect x="150" y="238" width="260" height="34" rx="10" fill="#BFDBFE"/>
+  <rect x="150" y="290" width="430" height="22" rx="11" fill="#CBD5E1"/>
+  <rect x="150" y="326" width="400" height="22" rx="11" fill="#CBD5E1"/>
+  <rect x="150" y="362" width="360" height="22" rx="11" fill="#CBD5E1"/>
+  <rect x="150" y="420" width="220" height="46" rx="14" fill="url(#accent)"/>
+
+  <g stroke="#0F172A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 186H590"/>
+    <path d="M250 438H318"/>
+  </g>
+
+  <g transform="translate(770 150)">
+    <text x="0" y="0" fill="#F8FAFC" font-size="52" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Hexo Blog Cleanup</text>
+    <text x="0" y="58" fill="#BFDBFE" font-size="28" font-family="Segoe UI, Arial, sans-serif">Structure, Debugging, Static Assets, Deployment</text>
+
+    <rect x="0" y="120" width="300" height="62" rx="18" fill="#0F254A" stroke="#38BDF8" stroke-opacity="0.4"/>
+    <text x="28" y="160" fill="#E0F2FE" font-size="24" font-family="Consolas, monospace">hexo clean &amp;&amp; hexo g</text>
+
+    <rect x="0" y="204" width="300" height="62" rx="18" fill="#0F254A" stroke="#22C55E" stroke-opacity="0.4"/>
+    <text x="28" y="244" fill="#DCFCE7" font-size="24" font-family="Consolas, monospace">local static images</text>
+
+    <rect x="0" y="288" width="300" height="62" rx="18" fill="#0F254A" stroke="#F8FAFC" stroke-opacity="0.28"/>
+    <text x="28" y="328" fill="#F8FAFC" font-size="24" font-family="Consolas, monospace">deploy via env token</text>
+  </g>
+
+  <g transform="translate(785 472)">
+    <rect width="265" height="56" rx="18" fill="#081225" fill-opacity="0.72" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="28" y="36" fill="#CFFAFE" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="600">Repository Maintenance Notes</text>
+  </g>
+</svg>
