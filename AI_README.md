@@ -37,6 +37,36 @@
 - `source/_drafts/2025-03-21-BFS-flood-fill.md`
 - `source/_drafts/mst-note.md`
 
+创建草稿时，优先使用：
+
+```powershell
+hexo new draft "文章标题"
+```
+
+## 文件命名规范
+
+以后统一使用：
+
+```text
+YYYY-MM-DD-文章标题.md
+```
+
+例如：
+
+- `2026-06-16-归并排序.md`
+- `2026-06-16-最小生成树的典型应用.md`
+
+要求如下：
+
+- 年月日必须补零，固定为 `YYYY-MM-DD`
+- 日期和标题之间统一用半角连字符 `-`
+- 文件名里不要再重复写两套日期格式
+- 不要混用：
+  - `2025-1-18归并排序.md`
+  - `BFS-Flood-Fill-ShortestRoute.md`
+  - `博客网站导出为md.md`
+- 除非用户明确要求，不要为了统一规范去批量重命名已经发布过的旧文章
+
 ## Front Matter 规范
 
 每篇文章必须有 YAML front matter，推荐字段顺序如下：
