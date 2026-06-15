@@ -49,7 +49,7 @@ index_img: /images/posts/image-20250117222141621.png
 
 I am an undergraduate student majoring in Computer Science and Technology at the [**China University of Mining and Technology**](https://www.cumt.edu.cn/).
 
-Welcome, You are my [![Visitor Count](https://profile-counter.glitch.me/666xz666/count.svg)](https://blog.i-xiao.space/) visitor, Thank You!🎉🎉
+Welcome, You are my ![Visitor Count](https://komarev.com/ghpvc/?username=666xz666&label=Visitor%20Count&color=3f7ab7&style=flat) visitor, Thank You!🎉🎉
 
 <picture>
   <source
@@ -69,6 +69,4 @@ Welcome, You are my [![Visitor Count](https://profile-counter.glitch.me/666xz666
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=666xz666&theme=github-compact&hide_border=true&area=true" />
 
 <img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=cpp,python,java,vue,windows,linux">
-
-![](https://komarev.com/ghpvc/?username=666xz666)
 
