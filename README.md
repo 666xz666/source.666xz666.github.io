@@ -109,6 +109,44 @@ npm run taxonomy -- BFS
 hexo new page "页面名"
 ```
 
+## AI 写作 Skill
+
+仓库内置了一个最小化博客写作 skill，用于让 Codex、Claude 等 agent 按当前仓库规则写博客草稿。
+
+相关文件：
+
+- `skills/blog-writing/SKILL.md`
+- `skills/blog-writing/CONFIG.json`
+- `AI_README.md`
+
+说明：
+
+- `AI_README.md` 是文章写作规则的唯一权威来源
+- `skills/blog-writing/SKILL.md` 只负责流程，不重复维护规则
+- `skills/blog-writing/CONFIG.json` 提供仓库根目录和默认命令
+- AI 新写文章应统一先写入 `source/_drafts/`
+
+典型调用方式：
+
+```text
+使用 skills/blog-writing/SKILL.md，写一篇关于并查集及其典型应用的算法博客。
+```
+
+或：
+
+```text
+使用 blog-writing skill，整理一篇关于 Floyd 和 Dijkstra 区别的博客草稿。
+```
+
+AI 执行时应自行完成：
+
+- 读取 `skills/blog-writing/CONFIG.json`
+- 读取 `AI_README.md`
+- 执行 `npm run taxonomy`
+- 推断标题、分类、标签
+- 创建草稿并写入内容
+- 执行 `hexo generate` 做校验
+
 ## 部署说明
 
 当前项目使用 `hexo-deployer-git` 部署到 GitHub。

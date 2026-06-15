@@ -1,0 +1,8 @@
+{
+  "repo_root": ".",
+  "writing_guide": "AI_README.md",
+  "taxonomy_command": "npm run taxonomy",
+  "draft_command_template": "hexo new draft \"{title}\"",
+  "build_command": "hexo generate",
+  "default_cover_strategy": "local-static"
+}
