@@ -85,6 +85,24 @@ hexo new draft "文章标题"
 - 适合先写初稿、整理结构、补图片，再决定是否转正式文章
 - 如果后续确认发布，再手动移动到 `source/_posts/`
 
+写文章前先扫现有分类、标签和标题：
+
+```powershell
+npm run taxonomy
+```
+
+按关键词查重：
+
+```powershell
+npm run taxonomy -- BFS
+```
+
+说明：
+
+- 会同时扫描 `source/_posts/` 和 `source/_drafts/`
+- 会输出分类路径、分类节点、标签统计和现有文章清单
+- agent 写新文章前，建议先跑一次，优先复用已有 `categories` 和 `tags`
+
 新建页面：
 
 ```powershell
