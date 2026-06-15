@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2025-01-17 12:25:53
-index_img: /images/posts/image-20250117222141621.png
+index_img: /images/posts/image-20250117222141622.png
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +32,7 @@ index_img: /images/posts/image-20250117222141621.png
 <body>
     <div class="container">
         <div class="image">
-            <img src="/images/posts/image-20250117222141621.png" alt="Description of the image" style="height: 100%;">
+            <img src="/images/posts/image-20250117222141622.png" alt="Description of the image" style="height: 100%;">
         </div>
         <div class="text">
             <p>E-mail: 2965962144@qq.com</p>

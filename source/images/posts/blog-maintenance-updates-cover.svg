@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">博客仓库近期整理记录</title>
+  <desc id="desc">博客维护与写作流程更新封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.24)"/>
+  <text x="112" y="190" fill="#dbeafe" font-size="30" font-family="Segoe UI, Microsoft YaHei, sans-serif">Hexo / Fluid / GitHub</text>
+  <text x="112" y="286" fill="#ffffff" font-size="68" font-weight="700" font-family="Segoe UI, Microsoft YaHei, sans-serif">博客仓库近期整理记录</text>
+  <text x="112" y="368" fill="#e0f2fe" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif">命名规范、taxonomy、AI 写作 skill、about 修补</text>
+  <rect x="112" y="432" width="224" height="54" rx="27" fill="#111827"/>
+  <text x="148" y="468" fill="#93c5fd" font-size="26" font-family="Consolas, Segoe UI, sans-serif">recent updates</text>
+</svg>
