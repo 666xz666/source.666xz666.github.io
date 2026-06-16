@@ -1,3 +1,8 @@
+---
+name: blog-writing
+description: Write a blog draft for a configured local blog repository by first reading the repository AI_README.md, reusing existing taxonomy, saving to drafts, and validating with Hexo.
+---
+
 # Blog Writing Skill
 
 ## 目标
